@@ -10,11 +10,11 @@ int main()
 	scanf("%d",&b);
 	scanf("%d",&c);
 	
-	if (a > max)
+	if (a >= max)
 	{
 		max = a;
 	}
-	if (b > max)
+	if (b >= max)
 	{
 		max = b;
 	}
