@@ -18,10 +18,8 @@ int main()
 		printf("\n0");
 		
 	}
- 	if(Distance>=1 && Distance<=15)
+ 	if(Distance>=1 && Distance<=5)
 	{
-	
-	 	Distance>=1 && Distance<=5;
 	 	printf("\n15000");
  			
 	}
