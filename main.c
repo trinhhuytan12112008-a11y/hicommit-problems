@@ -12,7 +12,7 @@ int main()
  		printf("INVALID");
  		
 	 }
-	if (Oder_value>=500000 || Distance<=15)
+	if (Oder_value>=500000 && Distance<=15)
 	{
 		
 		printf("0");
