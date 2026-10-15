@@ -7,7 +7,7 @@ int main()
  	scanf("%d",&Distance);
  	
  	scanf("%d",&Oder_value);
- 	if(Distance==0 || Oder_value<=0)
+ 	if(Distance==0 && Oder_value<=0)
  	{
  		printf("INVALID");
  		
