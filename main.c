@@ -4,11 +4,12 @@ int main()
 	int a;
 	int b;
 	int c;
-	int max = a;
+	
 	//khai bao bien 
 	scanf("%d",&a);
 	scanf("%d",&b);
 	scanf("%d",&c);
+	int max = a;
 	
 	if (b >= max)
 	{
