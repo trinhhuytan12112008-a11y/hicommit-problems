@@ -15,22 +15,22 @@ int main()
 	if (Oder_value>=500000 || Distance<=15)
 	{
 		
-		printf("\n0");
+		printf("0");
 		
 	}
  	if(Distance>=1 && Distance<=5)
 	{
-	 	printf("\n15000");
+	 	printf("15000");
  			
 	}
 	if(Distance>=6 && Distance<=15)
 	{
-		printf("\n25000");
+		printf("25000");
 		
 	}
 	if (Distance>15)
 	{
-		printf("\n40000");
+		printf("40000");
 		
 	}
 
