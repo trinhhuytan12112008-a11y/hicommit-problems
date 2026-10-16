@@ -10,7 +10,7 @@ int main()
 	}
 	else if(t>=15 && t<25)
 	{
-		printf("MAT\n");
+		printf("LANH\n");
 	}
 	else if(t>=25 && t<=35)
 	{
