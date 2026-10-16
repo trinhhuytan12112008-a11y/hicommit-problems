@@ -4,11 +4,11 @@ int main()
 	int C;
 	int t;
 	scanf("%d",&t);
-	if(t<15)
+	if(t<=15)
 	{
 		printf("LANH\n");
 	}
-	else if(t>=15 && t<25)
+	else if(t>15 && t<25)
 	{
 		printf("MAT\n");
 	}
