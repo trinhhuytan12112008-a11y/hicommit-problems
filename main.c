@@ -16,9 +16,9 @@ int main()
 	{
 		printf("NONG");
 	}
-	else
+	else if(t>35)
 	{
-		printf("RATNONG");
+		printf("RAT_NONG");
 	}
 	
 	return 0;
