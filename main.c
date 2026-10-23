@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() 
+int <stdin.h>
 {
 int Xep_loai;
   scanf("%d",&Xep_loai);
