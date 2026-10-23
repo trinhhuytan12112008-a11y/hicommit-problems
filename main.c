@@ -6,7 +6,7 @@ int main() {
   {
     printf("A");
   }
-  else if(Diem>=8 && Diem<=8,9)
+  if(Diem>=8 && Diem<=8,9)
   {
     printf("B+");
   }
