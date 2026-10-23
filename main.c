@@ -2,8 +2,12 @@
 int main() 
 {
 int Xep_loai;
-  scanf("%d",&Xep_loai);}
-switch(Xep_loai){
+  scanf("%d",&Xep_loai);
+  return 0;
+}
+int Xep_loai;
+ switch(Xep_loai)
+ {
    case 1:
       printf("XEP_LOAI_XUAT_SAC"); 
     case 2:
