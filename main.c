@@ -3,9 +3,9 @@
 int main() {
   int w;
   int h;
-  int BMI;
-  scanf("%lf",&w);
-  scanf("%lf"&h);
+  char BMI;
+  scanf("%f",&w);
+  scanf("%f"&h);
   BMI = %f / ((%f/100)*(%f/100))
   if(BMI<18,5)
   {
