@@ -1,5 +1,4 @@
-#include <stdio.h>
-int (stdin.h)
+#include <stdin.h>
 int main() {
   int Diem;
   scanf("%f",&Diem);
