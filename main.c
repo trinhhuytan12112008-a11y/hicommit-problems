@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main() 
 {
-int Xep_loai;
-  scanf("%d",&Xep_loai);
-  return 0;
+int code;
+  scanf("%d",&code);
 }
-int Xep_loai;
- switch (Xep_loai)
+int code;
+ switch (code)
  {
    case 1:
       printf("XEP_LOAI_XUAT_SAC"); 
