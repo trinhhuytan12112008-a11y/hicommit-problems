@@ -6,27 +6,27 @@ int main() {
   {
     printf("A");
   }
-  else if(Diem>=8 && Diem<9)
+ if(Diem>=8 && Diem<9)
   {
     printf("B+");
   }
-  else if(Diem>=7 && Diem<8)
+   if(Diem>=7 && Diem<8)
   {
     printf("B");
   }
-  else if(Diem>=6,5 && Diem<=6,9)
+   if(Diem>=6,5 && Diem<=6,9)
   {
     printf("C+");
   }
-  else if(Diem>=5,5 && Diem<=6,4)
+   if(Diem>=5,5 && Diem<=6,4)
   {
     printf("C");
   }
-  else if(Diem>=5 && Diem<=5,4)
+   if(Diem>=5 && Diem<=5,4)
   {
     printf("D+");
   }
-    else if(Diem>=4 && Diem<5)
+   if(Diem>=4 && Diem<5)
   {
     printf("D");
   }
