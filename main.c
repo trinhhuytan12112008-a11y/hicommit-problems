@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-  int w;
-  int h;
-  char BMI;
+  float w;
+  float h;
+  float BMI;
   scanf("%f",&w);
   scanf("%f",&h);
   BMI = w / ((h/100)*(h/100));
-  if(BMI<18.5)
+  if(BMI<18.500000)
   {
     printf("UNDERWEIGHT");
   }
-  else if (BMI >= 18.5 && BMI < 24.9999)
+  else if (BMI >= 18.500000 && BMI < 24.999999)
   {
     printf("NORMAL");
   }
