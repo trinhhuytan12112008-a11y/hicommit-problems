@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+char Xep_loai;
 int n;
   scanf("%d",&n);
 switch(Xep_loai)
