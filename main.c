@@ -4,7 +4,6 @@ int main()
 int code;
   scanf("%d",&code);
 
-int code;
  switch (code)
  {
    case 1:
