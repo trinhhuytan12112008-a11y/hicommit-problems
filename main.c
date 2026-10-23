@@ -6,7 +6,7 @@ int Xep_loai;
   return 0;
 }
 int Xep_loai;
- switch (case)
+ switch (Xep_loai)
  {
    case 1:
       printf("XEP_LOAI_XUAT_SAC"); 
@@ -15,7 +15,7 @@ int Xep_loai;
     case 3:
       printf("XEP_LOAI_KHA"); break;
     case 4:
-      printf("XEP_LOAI_TRUNG_BINH");
+      printf("XEP_LOAI_TRUNG_BINH"); break;
     default:
       printf("KHONG_HOP_LE");
   
