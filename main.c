@@ -6,7 +6,7 @@ int Xep_loai;
   return 0;
 }
 int Xep_loai;
- switch (Xep_loai)
+ switch (case)
  {
    case 1:
       printf("XEP_LOAI_XUAT_SAC"); 
