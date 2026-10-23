@@ -3,7 +3,7 @@ int main()
 {
 int code;
   scanf("%d",&code);
-}
+
 int code;
  switch (code)
  {
@@ -18,4 +18,6 @@ int code;
     default:
       printf("KHONG_HOP_LE");
   
+}
+  return 0;
 }
