@@ -2,15 +2,15 @@
 int main() {
   int Diem;
   scanf("%f",&Diem);
- else if(Diem>=9 && Diem<=10)
+  if(Diem>=9 && Diem<=10)
   {
     printf("A");
   }
- else if(Diem>=8 && Diem<9)
+  else if(Diem>=8 && Diem<9)
   {
     printf("B+");
   }
-  else if(Diem>=7 && Diem<8)
+  else if(Diem>=7 && Diem<=7,9)
   {
     printf("B");
   }
@@ -26,7 +26,7 @@ int main() {
   {
     printf("D+");
   }
-  else if(Diem>=4 && Diem<5)
+    else if(Diem>=4 && Diem<=4,9)
   {
     printf("D");
   }
