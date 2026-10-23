@@ -10,11 +10,11 @@ int main() {
   {
     printf("B+");
   }
-  else if(Diem>=7 && Diem<=7,9)
+  else if(Diem>=7 && Diem<8)
   {
     printf("B");
   }
-  else if(Diem>=6,5 && Diem<=6,9)
+  else if(Diem>=6,5 && Diem<7)
   {
     printf("C+");
   }
