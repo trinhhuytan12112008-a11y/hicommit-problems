@@ -18,7 +18,7 @@ int main() {
       printf("KHA");
     }
   else {
-    printf("KHONG_DAT")
+    printf("KHONG_DAT");
   }
   return 0;
 }
