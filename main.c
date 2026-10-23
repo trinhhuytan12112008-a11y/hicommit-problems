@@ -3,7 +3,7 @@
 int main() {
   int k;
   long int Dong;
-  scanf("%ld",&k)
+  scanf("%ld",&k);
   if(k<=50)
   {
     Dong= 50 * 1678;
