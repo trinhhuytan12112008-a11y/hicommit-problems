@@ -25,6 +25,7 @@ int main() {
   else if(Diem>=5 && Diem<=5,4)
   {
     printf("D+");
+  }
     else if(Diem>=4 && Diem<=4,9)
   {
     printf("D");
