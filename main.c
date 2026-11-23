@@ -31,7 +31,7 @@ int main() {
   {
     printf("VALID");
   }
-  else  ((m == 4 || m == 6 || m == 9 || m == 11) && (d <= 30 && d >= 1))
+  else if  ((m == 4 || m == 6 || m == 9 || m == 11) && (d <= 30 && d >= 1))
   {
     printf("VALID");
   }
