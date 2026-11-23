@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() 
+{
   double d;
   float tien;
-   d = 0;
+   
    scanf(%lf, &d);
   if (d<=1)
   {
