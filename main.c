@@ -7,6 +7,18 @@ int main() {
   scanf("%d",&d);
   scanf("%d",&m);
   scanf("%d",&y);
+  if(y<1)
+  {
+    printf("INVALID");
+  }
+  else if(m>12 && m<1)
+  {
+    printf("INVALID");
+  }
+  else if(d>31)
+  {
+    printf("INVALID");
+  }
   if(y%400 == 0 || y%4 == 0 && y%100 != 0)
   { 
    if(m == 2 && d == 29)
