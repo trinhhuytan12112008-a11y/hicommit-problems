@@ -23,7 +23,7 @@ int main() {
   {
     printf("GOOD");
   }
-  else if(gpa>=5.0 && min>4.0)
+  else if(gpa>=5.0 && min>=4.0)
   {
     printf("PASS");
   }
