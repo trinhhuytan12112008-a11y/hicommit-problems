@@ -13,30 +13,22 @@ int main() {
     return 0;
   }
 
-   if(m>12 && m<1)
+  if(m>12 && m<1)
   {
     printf("INVALID");
     return 0;
   }
-   if(d>31 && d<1)
+  if(d>31 && d<1)
   {
     printf("INVALID");
     return 0;
   }
   if(y%400 == 0 || y%4 == 0 && y%100 != 0)
   { 
-   if(m == 2 && d == 29)
-   {
-     printf("VALID");
-   }
-  else if (m == 2 && d == 28 )
-  {
-    printf("INVALID");
-  }
-  else
-  {
-    printf("INVALID");
-  }
+     if(m == 2 && d <= 29)
+     {
+       printf("VALID");
+     }
   }
     if((m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12) && (d <= 31) )
     {
