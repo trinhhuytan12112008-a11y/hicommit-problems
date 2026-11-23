@@ -18,9 +18,10 @@ int main() {
     printf("INVALID");
     return 0;
   }
-  else if(d>31 && d<1)
+   if(d>31 && d<1)
   {
     printf("INVALID");
+    return 0;
   }
   if(y%400 == 0 || y%4 == 0 && y%100 != 0)
   { 
