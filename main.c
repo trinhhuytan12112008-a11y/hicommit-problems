@@ -21,6 +21,6 @@ else{
 
 }
 
-  printf("%lf", tien);
+  printf("%0.lf", tien);
   return 0;
 }
