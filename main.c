@@ -14,15 +14,15 @@ int main() {
     return 0;
   }
 
-  if(y%400 == 0 || (y%4 == 0 && y%100 != 0))
+  if((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0))
   { 
-     if(m == 2 && d <= 29 && d >= 1)
+     if(m == 2 && (d <= 29 && d >= 1))
      {
        printf("VALID");
        c = 1;
      }
   }
-  else if ((c == 0 ) && (m == 2) && (d <= 28 && d >= 1))
+  else if ((c == 0 && m == 2) && (d <= 28 && d >= 1))
   {
     printf("VALID");
   }
@@ -31,10 +31,11 @@ int main() {
   {
     printf("VALID");
   }
-  else if( (m == 4 || m == 6 || m == 9 || m == 11) && (d <= 30 && d >= 1))
+  else  ( (m == 4 || m == 6 || m == 9 || m == 11) && (d <= 30 && d >= 1))
   {
     printf("VALID");
   }
+
   else
   {
     printf("INVALID");
