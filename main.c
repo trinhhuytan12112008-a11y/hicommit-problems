@@ -26,7 +26,7 @@ int main() {
   }
   else 
   {
-    printf("FAIL");
+    printf("\nFAIL");
   }
   return 0;
 }
