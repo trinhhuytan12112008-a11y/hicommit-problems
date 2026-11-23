@@ -10,10 +10,13 @@ int main() {
   if(y<1)
   {
     printf("INVALID");
+    return 0;
   }
-  else if(m>12 && m<1)
+
+   if(m>12 && m<1)
   {
     printf("INVALID");
+    return 0;
   }
   else if(d>31 && d<1)
   {
