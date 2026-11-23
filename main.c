@@ -15,11 +15,11 @@ int main() {
     }
     else if( m == 4 || m == 6 || m == 9 || m == 11 && d == 30)
     {
-      printf("VALID");
+      printf("\nVALID");
     }
     else if(m == 2 && d == 29)
     {
-      printf("VALID");
+      printf("\nVALID");
     }
       else if(m == 2 && d == 28)
     {
