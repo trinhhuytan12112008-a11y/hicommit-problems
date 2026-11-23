@@ -3,24 +3,24 @@
 int main() 
 {
   double d;
-  float tien;
+  double tien;
    
    scanf(%lf, &d);
-  if (d<=1)
+  if(d<=1)
   {
     tien = d * 15000;
     
   }
-else if (d>1 || d<=5)
+else if(d<=5)
 {
     tien = 1 * 15000 + (d-1) * 13000;
     
 }
-else {
+else{
   tien = 1 * 15000 + 4 * 13000 + (d-5) * 11000;
 
 }
 
-  printf("%f", tien);
+  printf("%lf", tien);
   return 0;
 }
