@@ -15,21 +15,20 @@ int main() {
     }
     else if( m == 4 || m == 6 || m == 9 || m == 11 && d == 30)
     {
-      printf("\nVALID");
+      printf("VALID");
     }
-    else if(m == 2 && d == 29)
-    {
-      printf("\nVALID");
-    }
-      else if(m == 2 && d == 28)
-    {
-      printf("INVALID");
-    }
-    else 
-    {
-      printf("INVALID");
-    }
-    
+  }
+   else if(m == 2 && d == 29)
+   {
+     printf("VALID");
+   }
+  else if (m == 2 && d == 28 )
+  {
+    printf("INVALID");
+  }
+  else
+  {
+    printf("INVALID");
   }
   return 0;
 }
