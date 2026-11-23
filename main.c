@@ -22,7 +22,7 @@ int main() {
        c = 1;
      }
   }
-  else if (c == 0 ) && (m == 2) && (m <= 28 && m >= 1)
+  else if ((c == 0 ) && (m == 2) && (d <= 28 && d >= 1))
   {
     printf("VALID");
   }
