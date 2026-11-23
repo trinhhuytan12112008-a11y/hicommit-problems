@@ -2,8 +2,9 @@
 
 int main() 
   double d;
-  int tien;
-   tien=0;
+  float tien;
+   d = 0;
+   scanf(%lf, &d);
   if (d<=1)
   {
     tien = d x 15000;
@@ -18,7 +19,7 @@ else {
   tien = 1 x 15000 + 4 x 13000 + (d-5) x 11000;
 
 }
- scanf(%lf, &d);
-  printf("%d", tien);
+
+  printf("%f", tien);
   return 0;
 }
